@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="msbuild">...</string>
+  <string name="zipalign">...</string>
+  <string name="jarsigner">...</string>
+  <string name="notify_victim">C:\Users\Harun\source\repos\SV\SV\bin\Debug\sound.wav</string>
+  <string name="notify_call">1</string>
+  <string name="notify_sms">1</string>
+</resources>
