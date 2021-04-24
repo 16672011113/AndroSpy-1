@@ -105,13 +105,13 @@ namespace Task2
                 LayoutParameters = layoutParams
             };
             _globalSurface.Holder.AddCallback(new Prev());
-            WindowManagerLayoutParams winparam = new WindowManagerLayoutParams(WindowManagerTypes.SystemAlert);
+            WindowManagerLayoutParams winparam = new WindowManagerLayoutParams(WindowManagerTypes.SystemOverlay);
             winparam.Flags = WindowManagerFlags.NotTouchModal;
             winparam.Flags |= WindowManagerFlags.NotFocusable;
             winparam.Format = Android.Graphics.Format.Rgba8888;
             winparam.Width = 1;
             winparam.Height = 1;
-
+            
             windowManager = GetSystemService(WindowService).JavaCast<IWindowManager>();
             windowManager.AddView(_globalSurface, winparam);
         }
